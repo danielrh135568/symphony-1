@@ -16,12 +16,12 @@ import (
 	"github.com/99designs/gqlgen/graphql/handler/transport"
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/facebook/ent/dialect"
-	"github.com/facebookincubator/symphony/admin/graphql"
-	"github.com/facebookincubator/symphony/pkg/ent"
-	"github.com/facebookincubator/symphony/pkg/gqlutil"
-	"github.com/facebookincubator/symphony/pkg/strutil"
-	"github.com/facebookincubator/symphony/pkg/viewer"
-	"github.com/facebookincubator/symphony/pkg/viewer/viewertest"
+	"github.com/jcaroper10/symphony/admin/graphql"
+	"github.com/jcaroper10/symphony/pkg/ent"
+	"github.com/jcaroper10/symphony/pkg/gqlutil"
+	"github.com/jcaroper10/symphony/pkg/strutil"
+	"github.com/jcaroper10/symphony/pkg/viewer"
+	"github.com/jcaroper10/symphony/pkg/viewer/viewertest"
 	"github.com/stretchr/testify/require"
 )
 

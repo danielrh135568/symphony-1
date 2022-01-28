@@ -1,0 +1,20 @@
+kind: HelmRepository
+metadata:
+  name: mysql
+spec:
+  url: https://github.com/jcaroper10/symphony/infra/helm/mysql
+---
+kind: HelmRelease
+metadata:
+  name: mysql
+spec:
+  chart:
+    spec:
+      chart: mysql
+      version: "8.8.23"
+      sourceRef:
+        kind: HelmRepository
+        name: apps
+  values:
+    replicas: 1
+

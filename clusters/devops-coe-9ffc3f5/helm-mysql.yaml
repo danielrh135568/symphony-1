@@ -13,8 +13,9 @@ spec:
       chart: mysql
       version: "8.8.23"
       sourceRef:
-        kind: HelmRepository
-        name: apps
+        kind: GitRepository
+        name: mysql
+        namespace: flux-system
   values:
     replicas: 1
 

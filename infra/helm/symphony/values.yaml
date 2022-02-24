@@ -746,7 +746,7 @@ store:
     # Blob bucket configuration
     # ref: https://gocloud.dev/howto/blob/
     bucket:
-      url: ""
+      url: "https://gocloud.dev/howto/blob/"
 
     # Additional key/value pairs to be used as environment variables
     extraEnvVars: []

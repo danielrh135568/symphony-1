@@ -1,0 +1,5 @@
+apiVersion: helm.fluxcd.io/v1kind: HelmReleasemetadata:
+  name: podinfo-prodnamespace: prodannotations:
+    fluxcd.io/automated: "true"filter.fluxcd.io/chart-image: semver:~0.4spec:
+  releaseName: podinfo-prodchart:
+    git: git@github.com:jcaroper10/symphony.git: charts/podinforef:
